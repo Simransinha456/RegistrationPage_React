@@ -38,23 +38,16 @@ function Registration() {
                 <div>
                     <label htmlFor="username">Fullname</label>
                     <input type="text" autoComplete="off" name="username" id="username" value={data.username} onChange={handleInput} />
-                </div>
 
-                <div>
                     <label htmlFor="email">Email</label>
                     <input type="text" autoComplete="off" name="email" id="email" value={data.email} onChange={handleInput} />
-                </div>
 
-                <div>
                     <label htmlFor="phone">Phone number</label>
                     <input type="text" autoComplete="off" name="phone" id="phone" value={data.phone} onChange={handleInput} />
-                </div>
 
-                <div>
                     <label htmlFor="password">Password</label>
                     <input type="text" autoComplete="off" name="password" id="password" value={data.password} onChange={handleInput} />
                 </div>
-
                 <button type="submit">Registration</button>
             </form>
         </>
